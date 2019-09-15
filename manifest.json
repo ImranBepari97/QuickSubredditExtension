@@ -1,0 +1,11 @@
+{
+    "name": "Quick Subreddit",
+    "version": "1.0",
+    "description": "Allows user to type r/ <string> into their address bar to navigate to a subreddit!",
+	"omnibox": { "keyword" : "r/" },
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+  }
